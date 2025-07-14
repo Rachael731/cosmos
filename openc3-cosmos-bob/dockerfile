@@ -1,0 +1,5 @@
+FROM openc3/openc3-cosmos:latest
+
+# Optional: copy local tools, targets, or configs
+COPY ./targets /app/targets
+COPY ./tools /app/tools
