@@ -20,4 +20,7 @@ Gem::Specification.new do |s|
     s.version = '0.0.0' + ".#{time}"
   end
   s.files = Dir.glob("{targets,lib,tools,microservices}/**/*") + %w(Rakefile README.md LICENSE.txt plugin.txt)
+  
+    # Add this line to declare openc3 as a dependency:
+  s.add_runtime_dependency 'openc3'
 end
